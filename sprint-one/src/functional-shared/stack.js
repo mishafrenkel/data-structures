@@ -4,7 +4,7 @@ var Stack = function() {
   
   // create and set a count to 0 
   // // create storage object 
-  var someInstance = Object.assign({}, stackMethods);
+  var someInstance = _.extend({}, stackMethods);
   // var someInstance = _.extend({}, stackMethods);
   someInstance.storage = {}; 
   someInstance.index = 0; 
@@ -30,6 +30,9 @@ var stackMethods = {
     return this.index;
   }
 
+  // let x = Stack(); 
+  // x.push('test');
+  // console.log(x);
 
 
 

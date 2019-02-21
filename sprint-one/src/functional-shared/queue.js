@@ -3,6 +3,23 @@ var Queue = function() {
   // but try not not reference your old code in writing the new style.
 };
 
-var queueMethods = {};
+    this.lowestCount++;
+    return result;
+  },
+  size: function() {
+    return this.count - this.lowestCount;
+  }
+};
+
+// // Helper function to "extend" someInstance object with the methods that exist on queueMethods 
+// var extend = function(obj, methods) {
+//   // iterate over the keys in someMethods with a for in loop
+//   for (let key in obj) {
+//     // set obj[key](someInstance[key]) to point to methods[key] (i.e.someMethods[key]) 
+//     obj[key] = methods[key];
+//   }
+// }; 
+
+// var obj = Queue();
 
 

@@ -21,7 +21,7 @@ var Queue = function() {
       someInstance.storage[someInstance.count] = value;
       // increment the starting index by one
       someInstance.count++;
-      return someInstance.storage[someInstance.count];
+      return someInstance;
     }
   };
 

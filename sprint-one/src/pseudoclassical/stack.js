@@ -1,6 +1,6 @@
 var Stack = function() {
   this.count = 0;
-  this.storage = 0;
+  this.storage = {};
 };
 
 // Adds a value onto the end of the stack

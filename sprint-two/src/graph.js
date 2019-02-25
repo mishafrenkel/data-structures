@@ -64,7 +64,7 @@ Graph.prototype.forEachNode = function(cb) {
     - graph.addNode(node): O(1)
     - graph.contains(node): O(n)
     - graph.removeNode(node): O(n)
-    - graph.hasEdge(from, to): O(n)
+    - graph.hasEdge(from, to): O(1)
     - addEdge(from, to): O(1)
     - removeEdge(from, to): O(n)
     - forEachNode(cb): O(n)
